@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NttData.FileManagement.Business.Logic.Implementations
 {
-    internal class StudentService : IStudentService
+    public class StudentService : IStudentService
     {
         public bool Add(Student student)
         {
